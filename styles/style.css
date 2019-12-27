@@ -673,6 +673,7 @@ footer p {
 #social-cta .flex-container {
     justify-content: space-between;
     padding: 0;
+    flex-wrap: no-wrap;
 }
 
 #music {
