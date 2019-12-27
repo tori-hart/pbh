@@ -504,7 +504,7 @@ footer p {
 /* Sections */
 
 #contact {
-    background-image: url('../images/bg/pbh-sassy-phone.jpg');
+    background-image: url('images/bg/pbh-sassy-phone.jpg');
     background-size: cover;
     background-position: center;
     min-height: 40vw;
@@ -576,12 +576,6 @@ footer p {
 
 #contact .content-box {
     padding: 1rem;
-}
-
-.wavy-up {
-    position: absolute;
-    top: -100px;
-    background-image: url(../images/bg/wavy.png);
 }
 
 #events {
@@ -667,7 +661,7 @@ footer p {
 
 #social-cta {
     background-color: #fba0a5;
-    background-image: url('../images/bg/neon-pink-frame-text.png');
+    background-image: url('images/bg/neon-pink-frame-text.png');
     background-size: cover;
     background-position: center;
     min-height: 40vw;
@@ -682,7 +676,7 @@ footer p {
 }
 
 #music {
-    background-image: url('../images/bg/yellow-bg.png');
+    background-image: url('images/bg/yellow-bg.png');
     background-size: cover;
     background-position: left;
     min-height: 40vw;
