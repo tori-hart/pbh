@@ -504,6 +504,7 @@ footer p {
 /* Sections */
 
 #contact {
+    background-color: #311126;
     background-image: url('images/bg/pbh-sassy-phone.jpg');
     background-size: cover;
     background-position: center;
@@ -660,7 +661,7 @@ footer p {
 }
 
 #social-cta {
-    background-color: #fba0a5;
+    background-color: #FDB8BB;
     background-image: url('images/bg/neon-pink-frame-text.png');
     background-size: cover;
     background-position: center;
@@ -677,6 +678,7 @@ footer p {
 }
 
 #music {
+    background-color: #FFE100;
     background-image: url('images/bg/yellow-bg.png');
     background-size: cover;
     background-position: left;
