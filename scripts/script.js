@@ -26,6 +26,18 @@ document.addEventListener("DOMContentLoaded", function() {
         $('#events').addClass('show');
       } 
     });
+
+
+    $('#merch-form input[name="delivery"]').click(function() {
+      console.log()
+      if($('#ship-delivery').is(':checked')) { 
+        $('#pickup-msg').addClass('hidden');
+        $('#ship-msg').removeClass('hidden');
+      } else {
+        $('#ship-msg').addClass('hidden');
+        $('#pickup-msg').removeClass('hidden');
+      }
+    });
   });
   
 
