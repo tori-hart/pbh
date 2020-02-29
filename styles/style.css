@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.visibly-hidden {
+    display: block;
+    position: absolute;
+    line-height: 0;
+    left: -9999px;
+    height: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+ul, li, ol {
+    display: block;
+    list-style-type: none;
+    list-style-image: none;
+}
+div {
+    display: block;
+    width: 100%;
+}
+
+html, body {
+    background-color: black;
+}
+#page-wrapper {
+    background-image: url(../images/bg/pbh-sassy-phone.jpg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#center-nav a {
+    font-family: 'Monoton';
+    color: white;
+    padding: 0.5em 1em;
+    font-size: 3vw;
+    flex: 0 1 20%;
+}
+#center-nav li:nth-child(2) a {
+    border: 1px solid white;
+}
+#bottom-nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#bottom-nav > div {
+    flex: 1 0 33%;
+    border-top: 1px solid white;
+}
+#bottom-nav a {
+    line-height: 2.5em;
+    height: 2.5em;
+    padding: 0 0.25em;
+}
+#bottom-nav #left-bottom-nav a {
+    line-height: 2.25em;
+    padding-top: 0.25em
+}
+#bottom-nav .sticker {
+    padding: 0 0.25em;
+    flex: 0 1 25%;
+}
+#bottom-nav .sticker a {
+    padding: 0.25em;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+}
+#bottom-nav #big-logo {
+    border: none;
+    flex-grow: 0;
+}
